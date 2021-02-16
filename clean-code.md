@@ -275,17 +275,18 @@
   - 양쪽에서 단점만 모아놓은 구조, 프로그래머가 함수나 타입을 보호할지 공개할지 확신하지 못해 어중간하게 내놓은 설계
    
 - __구조체 감추기__
-  - ctxt에 공개해야하는 메서드가 너무 많아진다.
 ```
 ctxt.getAbsolutePathOfScratchDirectoryOption();
 ctxt.getScratchDirectoryOption.getAbsolutePath();
 ```
-- 
-  - ctxt객체에 임시 파일을 생성하도록 한다.
-  - ctxt는 내부 구조를 드러내지 않으며, 해당 함수는 자신이 몰라야 하는 여러 객체를 탐색 할 필요가 없다.    
+-
+  - ctxt에 공개해야하는 메서드가 너무 많아진다.
 ```
 BufferedOutputStream bos = ctxt.createScratchFileStream(classFileName);
 ```
+-  
+  - ctxt객체에 임시 파일을 생성하도록 한다.
+  - ctxt는 내부 구조를 드러내지 않으며, 해당 함수는 자신이 몰라야 하는 여러 객체를 탐색 할 필요가 없다.    
    
 - 자료 전달 객체
   - 자료 구조체의 전형적인 형태는 공개 변수만 있고 함수가 없는 클래스다.
