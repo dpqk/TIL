@@ -280,6 +280,7 @@
 ctxt.getAbsolutePathOfScratchDirectoryOption();
 ctxt.getScratchDirectoryOption.getAbsolutePath();
 ```
+- 
   - ctxt객체에 임시 파일을 생성하도록 한다.
   - ctxt는 내부 구조를 드러내지 않으며, 해당 함수는 자신이 몰라야 하는 여러 객체를 탐색 할 필요가 없다.    
 ```
