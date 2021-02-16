@@ -279,14 +279,12 @@
 ctxt.getAbsolutePathOfScratchDirectoryOption();
 ctxt.getScratchDirectoryOption.getAbsolutePath();
 ```
--
-  - ctxt에 공개해야하는 메서드가 너무 많아진다.
+-- ctxt에 공개해야하는 메서드가 너무 많아진다.
 ```
 BufferedOutputStream bos = ctxt.createScratchFileStream(classFileName);
 ```
--  
-  - ctxt객체에 임시 파일을 생성하도록 한다.
-  - ctxt는 내부 구조를 드러내지 않으며, 해당 함수는 자신이 몰라야 하는 여러 객체를 탐색 할 필요가 없다.    
+-- ctxt객체에 임시 파일을 생성하도록 한다.
+-- ctxt는 내부 구조를 드러내지 않으며, 해당 함수는 자신이 몰라야 하는 여러 객체를 탐색 할 필요가 없다.    
    
 - 자료 전달 객체
   - 자료 구조체의 전형적인 형태는 공개 변수만 있고 함수가 없는 클래스다.
