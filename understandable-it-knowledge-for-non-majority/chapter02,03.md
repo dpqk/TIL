@@ -25,4 +25,5 @@
  - 여러 LAN을 연결해 MAN(Metropolitan Area Network)을 구성
  - 도시와 도시, 나라와 나라를 연결해서 WAN(Wide Area Network)를 만듬
 
- - ㅣ
+ - 개인이 서버를 운영하면 여러가지 리스크가 발생하게 됨
+   - 이런 일들을 대신해주는 서비스 - 호스팅 업체
