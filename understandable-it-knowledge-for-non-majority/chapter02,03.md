@@ -21,4 +21,8 @@
  
  
 # 네트워크, 클라이언트, 서버
- - 
+ - 컴퓨터가 연결된 작은 지역을 LAN(Local Area Network)라고 부름
+ - 여러 LAN을 연결해 MAN(Metropolitan Area Network)을 구성
+ - 도시와 도시, 나라와 나라를 연결해서 WAN(Wide Area Network)를 만듬
+
+ - ㅣ
